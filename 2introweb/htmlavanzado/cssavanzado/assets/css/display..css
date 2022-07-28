@@ -1,0 +1,81 @@
+.cuadropadre {
+
+        
+
+    background-color: pink (253, 256, 189);
+    
+    display: flex;
+
+    flex-direction: row;
+
+   justify-content: center;
+
+   align-items: center;
+
+
+
+
+}
+.cuadro {
+
+    background-color: rgb(209, 171, 238);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+    padding: 10px;
+    border: #e00 10px;
+    border-radius: 10px 20px 30px 40px ;
+    
+}
+.el-1 {
+    background-color: blue;
+
+ 
+}
+.el-2 {
+    background-color: red;
+    flex-grow: 1;
+
+}
+.el-3 {
+    background-color: pink;
+    align-self: flex-end;
+    flex-grow: 1;
+   
+}
+.el-4 {
+    background-color: green;
+    flex-grow: 10;
+
+}
+.el-5 {
+    background-color: blueviolet;
+    
+}
+
+
+
+
+
+.contenedor {
+
+    height: 200px;
+    background-color: #80cccc;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.fila {
+
+    display: flex;
+}
+
+.columna {
+    flex-grow: 1;
+
+}
+
+.color-rojo {
+    background-color: red;
+}
