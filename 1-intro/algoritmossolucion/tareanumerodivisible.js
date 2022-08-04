@@ -2,7 +2,7 @@
 //Programa de divisibilidad
 
 function divisible(numero){
-    if( (numero%7===0) && (numero%8===0)){
+    if( (numero%2===0) && (numero%4===0)){
         return true;
     }else{
         return false;
@@ -11,5 +11,5 @@ function divisible(numero){
 
 console.log("DIVISIBILIDAD")
 let numero = parseInt(prompt("Escribe el numero: "));
-console.log("¿El numero " + numero + " es divisible entre 7 y 8?");
+console.log("¿El numero " + numero + " es divisible entre 2 y 4?");
 console.log("RESPUESTA: " + divisible(numero));

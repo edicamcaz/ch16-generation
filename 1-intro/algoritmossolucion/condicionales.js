@@ -1,7 +1,7 @@
 //Condicionales
 //IF
 
-let nombre = prompt("Cual es tu nombre?","Escribe tu nombre");
+let nombre = prompt("Escribe tu nombre");
 
 if(nombre === "Edith"){
     console.log("Holi, Edith");
@@ -17,11 +17,12 @@ if(nombre === "Edith"){
     console.log("Holi, Tu");
 }
 
-//shift+alt+a = comentar seleccionado
-//CASTEO - string a numerico (parseInt)
-//Tambien existe parseFloat
-console.log("Edad");
+// string a numerico (parseInt)
+//parseFloat
+
+
 let edad = prompt("Cual es tu nombre?","Escribe tu edad");
+console.log("Edad");
 console.log(typeof(edad));
 console.log(edad);
 edad = parseInt(edad);

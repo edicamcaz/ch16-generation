@@ -33,3 +33,5 @@ console.log(personas.indexOf("Raquel"));
 //POCO COMUN
 personas.splice(1,1,"Beto");
 console.log(personas);
+
+document.write(personas)
