@@ -1,0 +1,32 @@
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: decimal;
+}
+body ul ol li {
+    color: red;
+    border: 3px dotted black;
+}
+h1 {
+    background-color: aquamarine;
+    width: fit-content;
+}
+div {
+    display:  inline-block;
+    background-color: aqua;
+    width: 200px;
+}
+a {
+    display: inline-block;
+    background-color: chartreuse;
+    width: 200px;
+    height: 400px;
+    border: 1px solid red;
+}
+span {
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    background-color: blue;
+}

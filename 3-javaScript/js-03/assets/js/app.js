@@ -75,6 +75,24 @@ let edad = 30
             console.log("menor");
     }
     
+    let Calculadora = 'sumar'
+    switch (Calculadora){
+    case sumar:
+    console.log('Vamos a Sumar')
+    break
+    case restar: 
+    console.log('Vamos a Restar')
+    break
+    case multiplicar:
+    console.log('Vamos a Multiplicar')
+    break
+    case dividir:
+    console.log('Vamos a Dividir')
+    break
+    default:
+    console.log('No entendi el comando')
+    
+}
 
 
 
